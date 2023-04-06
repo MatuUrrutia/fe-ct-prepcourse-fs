@@ -46,11 +46,11 @@ function agregarStringInvertida() {
 let invertido = []
 //separar las letras del string recibido por parametro en un arreglo
 let palabraSeparada = this.split('')
-//recorrer el arreglo
+//recorrer el arreglo y guardar cada letra antes de la anterior
 palabraSeparada.forEach((letra) => {
    invertido.unshift(letra)
-   
       })
+//devolver el nuevoarreglo como un string
       return invertido.join('');
    } 
 }
