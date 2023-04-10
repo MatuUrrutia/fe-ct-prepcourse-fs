@@ -81,8 +81,7 @@ function filter(arrayOfStrings) {
    
 
    return arrayOfStrings.filter(function(letra) {
-      if (letra.at(0) == 'a') {
-         return letra;};
+      if (letra.at(0) == 'a') return letra;
       }); 
 }
 
